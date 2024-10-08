@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6  {
 }
 .hero {
     text-align: center;
-    background-color:var(--primary-color);
+    background: var(--primary-color);
     padding: 160px 20px;
 }
 .hero p {
@@ -74,13 +74,27 @@ h1, h2, h3, h4, h5, h6  {
     font-weight: 500;
 }
 @media (max-width: 900px) {
+    body {
+        margin:  0px;
+    }
     .hero {
         padding: 80px 20px;
         text-align: center;
-       display: block;
+       
     }
-   .hero h1 {
-        font-size: 44px;
+    h1 {
+        font-size: 50px;
         
+   }
+   h2 {
+       font-size: 44px;
+
+   }
+   h3 {
+       font-size: 18px;
+
+   }
+   .my-project-description {
+       padding: 0px;
    }
 }
