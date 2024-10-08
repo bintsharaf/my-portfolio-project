@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6  {
     color:  var(--text-color);
 }
 .btn-styling {
-    padding: 18px 30px;
+    padding: 15px 25px;
     border-radius: 4px;
     background: var(--branding-color);
     color: white;
@@ -52,11 +52,11 @@ h1, h2, h3, h4, h5, h6  {
     font-weight: 500;
 }
 .my-project-description {
-    padding: 120px 50px;
+    padding: 100px 40px;
 }
 .my-project-description h2 {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 55px;
 }
 .my-project-description p {
     line-height: 30px;
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6  {
     opacity: 70%;
 }
 .btn-branding {
-    padding: 18px 30px;
+    padding: 15px 25px;
     border-radius: 4px;
     
     color: var(--branding-color);
@@ -74,27 +74,29 @@ h1, h2, h3, h4, h5, h6  {
     font-weight: 500;
 }
 @media (max-width: 900px) {
-    body {
-        margin:  0px;
-    }
     .hero {
         padding: 80px 20px;
-        text-align: center;
-       
     }
-    h1 {
-        font-size: 50px;
-        
-   }
-   h2 {
-       font-size: 44px;
-
-   }
-   h3 {
-       font-size: 18px;
-
-   }
+    .hero p {
+    font-size: 26px;
+    }
+    .hero h1 {
+    font-size: 60px;
+    }
+    .hero h3 {
+    font-size: 16px;
+    }
+    p {
+    font-size: 14px;    
+    } 
    .my-project-description {
-       padding: 0px;
-   }
+    padding: 0;
+    text-align: center;
+    }
+    .my-project-description h2 {
+    font-size: 40px;
+    }
+    .my-project-description p {
+    
+    }
 }
