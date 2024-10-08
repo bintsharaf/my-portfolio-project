@@ -6,7 +6,8 @@
     --text-color: #272142; 
 }
 body{
-   font-family: var(--default-font-family); 
+   font-family: var(--default-font-family);
+   
 }
 p {
     font-size: 18px;
@@ -22,7 +23,7 @@ h1, h2, h3, h4, h5, h6  {
 .hero {
     text-align: center;
     background-color:var(--primary-color);
-    padding: 140px 90px;
+    padding: 160px 20px;
 }
 .hero p {
     font-size: 36px;
@@ -71,4 +72,15 @@ h1, h2, h3, h4, h5, h6  {
     border: 1px solid var(--branding-color);
     font-size: 16px;
     font-weight: 500;
+}
+@media (max-width: 900px) {
+    .hero {
+        padding: 80px 20px;
+        text-align: center;
+       display: block;
+    }
+   .hero h1 {
+        font-size: 44px;
+        
+   }
 }
