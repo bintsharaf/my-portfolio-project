@@ -73,25 +73,29 @@ h1, h2, h3, h4, h5, h6  {
     font-size: 16px;
     font-weight: 500;
 }
-.about-section {
+.section {
     padding: 160px 20px;
     
 }
-.about-section h1 {
+.section h1 {
     font-size: 64px;
     
 }
-.about-section h3 {
+.section h2 {
+    font-size: 24px;
+    font-family: var(--default-font-family);
+}
+.section h3 {
     font-size: 18px;
     font-family: var(--default-font-family);
     line-height: 27px;
 }
-.about-section p {
-    font-size: 16px;
+.section p {
+    font-size: 15px;
     line-height: 30px;
 }
-.about-section-content {
-    margin: 15px;
+.section-content {
+    margin: 30px;
 }
 @media (max-width: 900px) {
     .hero {
@@ -119,17 +123,18 @@ h1, h2, h3, h4, h5, h6  {
     .my-project-description p {
     
     }
-    .about-section {
+    .section {
         text-align: center;
         padding: 0;
     }
-    .about-section h1 {
-        font-size: 44px;
+    .section h1 {
+        font-size: 50px;
+        
     }
-    .about-section h3 {
+    .section h3 {
         font-size: 16px;
     }
-    .about-section p {
+    .section p {
         font-size: 14px;
     }
 }
