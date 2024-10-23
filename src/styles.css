@@ -9,6 +9,29 @@ body{
    font-family: var(--default-font-family);
    
 }
+.logo {
+    max-height: 40px;
+}
+nav {
+    padding: 20px 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li, a  {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    line-height: 42px;
+    margin-left: 15px;
+    color: var(--text-color);
+    transition: all 100ms ease-in-out;
+}
+nav a:hover, 
+nav li.active a{
+    color: var(--branding-color);
+}
 p {
     font-size: 18px;
     font-weight: 400;
@@ -97,7 +120,13 @@ h1, h2, h3, h4, h5, h6  {
 .section-content {
     margin: 30px;
 }
+
+
 @media (max-width: 900px) {
+    nav a {
+        font-size: 12px;
+        margin-left: 10px;
+    }
     .hero {
         padding: 80px 20px;
     }
