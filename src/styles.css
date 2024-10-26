@@ -1,5 +1,5 @@
 :root {
-    --primary-color:#fefdf7;
+    --primary-color:#f7f2d6;
     --branding-color: #9b690d;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
@@ -120,17 +120,36 @@ h1, h2, h3, h4, h5, h6  {
 .section-content {
     margin: 30px;
 }
+footer {
+    margin: 70px 0;
+}
+footer .contact-info {
+    background: var(--primary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
 footer .contact-info h4 {
     font-size: 48px;
+    margin: 0;
 }
-
+footer .contact-info p {
+    line-height: 30px;
+    opacity: 70%;
+    font-size: 16px;
+}
+footer  a{
+    font-size: 24px;
+}
+footer a:hover {
+    color: var(--branding-color);
+}
 @media (max-width: 900px) {
     nav a {
         font-size: 12px;
         margin-left: 10px;
     }
     .hero {
-        padding: 80px 20px;
+        padding: 90px 40px;
     }
     .hero p {
     font-size: 26px;
