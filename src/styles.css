@@ -138,7 +138,7 @@ footer .contact-info p {
     font-size: 16px;
 }
 footer .email-link  a{
-    font-size: 24px;
+    font-size: 20px;
 }
 footer .email-link a:hover {
     color: var(--branding-color);
@@ -159,6 +159,9 @@ footer .social-icon a:hover {
     background: var(--branding-color);
 }
 @media (max-width: 900px) {
+    h4 {
+        font-size: 24px;
+        }
     nav a {
         font-size: 12px;
         margin-left: 10px;
