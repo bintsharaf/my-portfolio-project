@@ -137,11 +137,26 @@ footer .contact-info p {
     opacity: 70%;
     font-size: 16px;
 }
-footer  a{
+footer .email-link  a{
     font-size: 24px;
 }
-footer a:hover {
+footer .email-link a:hover {
     color: var(--branding-color);
+}
+
+footer .social-icon a {
+    text-align: center;
+    margin: 0 20px;
+    background: var(--primary-color);
+    color: var(--branding-color);
+    padding: 10px 13px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+footer .social-icon a:hover {
+    color: white;
+    background: var(--branding-color);
 }
 @media (max-width: 900px) {
     nav a {
