@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6  {
     font-weight: 500;
 }
 .section {
-    padding: 160px 20px;
+    padding: 60px 20px;
     
 }
 .section h1 {
@@ -149,14 +149,18 @@ footer .social-icon a {
     margin: 0 20px;
     background: var(--primary-color);
     color: var(--branding-color);
-    padding: 10px 13px;
-    border-radius: 50%;
+    padding: 6px 14px;
+    border-radius:35%;
     font-size: 18px;
     transition: all 100ms ease-in-out;
 }
 footer .social-icon a:hover {
     color: white;
     background: var(--branding-color);
+}
+footer  p a {
+    color: blue;
+    text-decoration: underline;
 }
 @media (max-width: 900px) {
     h4 {
