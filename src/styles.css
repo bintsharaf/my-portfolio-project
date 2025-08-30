@@ -14,6 +14,7 @@ body{
 }
 nav {
     padding: 20px 0;
+    background: var(--primary-color);
 }
 nav ul {
     margin: 0;
@@ -146,12 +147,15 @@ footer .email-link a:hover {
 
 footer .social-icon a {
     text-align: center;
-    margin: 0 20px;
+    margin: 0 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
     background: var(--primary-color);
     color: var(--branding-color);
-    padding: 6px 14px;
-    border-radius:35%;
-    font-size: 18px;
+    text-decoration: none;
+    border-radius:50%;
+    border: 2px solid var(--branding-color);
     transition: all 100ms ease-in-out;
 }
 footer .social-icon a:hover {
