@@ -32,6 +32,7 @@ nav li, a  {
 nav a:hover, 
 nav li.active a{
     color: var(--branding-color);
+    transform: scale(2);
 }
 p {
     font-size: 18px;
