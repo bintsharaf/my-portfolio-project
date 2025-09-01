@@ -178,7 +178,7 @@ footer .social-icon a {
     color: var(--branding-color);
     text-decoration: none;
     border-radius:50%;
-    border: 2px solid var(--branding-color);
+    border: 1px solid var(--branding-color);
     transition: all 100ms ease-in-out;
 }
 footer .social-icon a:hover {
