@@ -11,7 +11,7 @@ body{
 }
 .logo {
     max-height: 40px;
-    margin: 15px 0;
+    /*margin: 15px 0;*/
 }
 .logo:hover {
     transform: scale(1.2);
@@ -195,14 +195,21 @@ footer  p a {
     h4 {
         font-size: 24px;
         }
+    .logo {
+        max-height: 30px;
+        margin-left: 5px;
+    /*margin: 15px 0;*/
+}    
     nav {
         display: flex;
         cursor: pointer;
         padding: 10px 0;
     }    
-    nav a {
-        font-size: 12px;
-        margin-left: 10px;
+    
+    nav li, a {
+        font-size: 10px;
+        margin: 0 5px;
+        align-items: center;
     }
     .hero {
         padding: 90px 40px;
