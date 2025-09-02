@@ -11,7 +11,7 @@ body{
 }
 .logo {
     max-height: 40px;
-    /*margin: 15px 0;*/
+    margin-left: 15px;
 }
 .logo:hover {
     transform: scale(1.2);
