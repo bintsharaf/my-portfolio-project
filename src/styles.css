@@ -11,6 +11,7 @@ body{
 }
 .logo {
     max-height: 40px;
+    margin: 15px 0;
 }
 .logo:hover {
     transform: scale(1.2);
@@ -32,6 +33,7 @@ body{
 nav {
     padding: 20px 0;
     background: var(--primary-color);
+    align-items: center;
 }
 nav ul {
     margin: 0;
@@ -42,7 +44,7 @@ nav li, a  {
     list-style: none;
     text-decoration: none;
     line-height: 42px;
-    margin-left: 15px;
+    margin:  0 15px;
     color: var(--text-color);
     transition: all 100ms ease-in-out;
 }
